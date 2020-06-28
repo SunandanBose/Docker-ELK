@@ -28,7 +28,7 @@
 >
 > change filebeat.yml value to below mentioned
 >
->	```filebeat.inputs:
+>	filebeat.inputs:
 >	- type: log
 >	  enabled: true
 >	  paths:
