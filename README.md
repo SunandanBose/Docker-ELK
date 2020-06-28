@@ -10,7 +10,7 @@
 
 >#Verifying the installation
 >
->>	docker ps
+>>	```docker ps```
 
 >> *[Note :  ports on the localhost will be mapped to the default ports used by 
 			 Elasticsearch (9200/9300), Kibana (5601) and Logstash (5000/5044).]*
