@@ -4,7 +4,7 @@
 >
 >	```git clone https://github.com/deviantony/docker-elk.git
 >	cd /docker-elk
->	docker-compose up -d```
+>	docker-compose up -d
 >
 
 ## Verifying the installation
@@ -15,7 +15,7 @@
 			 Elasticsearch (9200/9300), Kibana (5601) and Logstash (5000/5044).]*
 >
 >	```user : elastic
->	password : changeme```
+>	password : changeme
 >
 
 
@@ -42,7 +42,7 @@
 >	setup.kibana:
 >	  host: "localhost:5601"
 >	  username: "elastic"
->	  password: "changeme"```
+>	  password: "changeme"
 >
 
 ## Start Filebeat
