@@ -52,10 +52,10 @@
 ## Go To Kibana Dashboard in Browser
 
 >Management -> Kibana -> Index Patterns
-
+>
 >Create Index Pattern -> select filebeat (version which you installed above) -> Next
-
+>
 >Configure Settings -> Time filter field name -> @timestamp -> Create Index Pattern
-
+>
 >Analyze the data in Kibana Discover Page 
 >
