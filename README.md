@@ -14,7 +14,8 @@
 > *[Note :  ports on the localhost will be mapped to the default ports used by 
 			 Elasticsearch (9200/9300), Kibana (5601) and Logstash (5000/5044).]*
 >
->	```user : elastic
+>	```
+>	user : elastic
 >	password : changeme
 >
 
@@ -23,7 +24,7 @@
 
 >	```curl -L -O https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-7.7.1-darwin-x86_64.tar.gz
 >	tar xzvf filebeat-7.7.1-darwin-x86_64.tar.gz
->	cd filebeat-7.7.1-darwin-x86_64/```
+>	cd filebeat-7.7.1-darwin-x86_64/
 >
 > change filebeat.yml value to below mentioned
 >
