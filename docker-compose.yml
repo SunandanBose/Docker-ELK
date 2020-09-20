@@ -1,0 +1,21 @@
+version: '3'
+services:
+  kibana:
+    image: kibana:7.9.1
+    environment: 
+        - ELASTICSEARCH_HOSTS=http://elasticsearch:9200
+    ports:
+        - 5601:5601
+  elasticsearch:
+    image: elasticsearch:7.9.1
+    environment:
+        - discovery.type=single-node
+    ports:
+        - 9200:9200
+  app:
+    image: "api_difference_logs_post"
+    build: ./app/
+    # depends_on:
+    #     - "elasticsearch"
+    command: ["./wait-for-it.sh", "elasticsearch:9200", "--", "node", "app.js"]
+    

@@ -1,0 +1,15 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "Post data to elastic search server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sunandan",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
